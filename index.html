@@ -12,7 +12,8 @@
 <body>
     <div class="container">
         <div id="board">
-            <div id="quote-box">
+            <p id="countdown">15</p>
+            <div id="quote-box">                
                 <span>"</span>
                 <p id="quote">
                     We know what we are, but know not what we may be.
@@ -22,9 +23,22 @@
                 </p>
             </div>
             <div id="buttons">
-                <button id="categories">Categories</button>
+                <!-- <button id="categories">Categories</button>
                 <button id="share">Share</button>
-                <button id="next">Next</button>
+                <button id="next">Next</button> -->
+                <!-- <select name="categories" id="categories">
+                    <option value="saving">Saving</option>
+                    <option value="saving">Hard Work</option>
+                    <option value="saving">Discipline</option>
+                    <option value="saving">Persistence</option>
+                    <option value="saving">Study</option>
+                </select> -->
+                <label for="all">All <input type="checkbox" id="all"></label>
+                <label for="saving">Saving <input type="checkbox" id="saving"></label>
+                <label for="hard-work">Hard Work <input type="checkbox" id="hard-work"></label>
+                <label for="discipline">Discipline <input type="checkbox" id="discipline"></label>
+                <label for="persistence">Persistence <input type="checkbox" id="persistence"></label>
+                <label for="study">Study <input type="checkbox" id="study"></label>
             </div>
         </div>
     </div>
