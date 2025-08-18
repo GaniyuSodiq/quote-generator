@@ -56,6 +56,11 @@ body{
     z-index: 1;
 }
 
+#quote-box #author{
+    margin-top: 20px;
+    
+}
+
 #buttons{
     height: 20%;
     display: flex;
